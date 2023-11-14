@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome TravelEasee admin</h1>
+    <br /><br />
+    <button class = "btn-primary btn-lrg" onclick="goToPackages()">Click to go to packages</button>
+</div>
+
+<script>
+    function goToPackages() {
+        window.location.href = "Packages";
+    }
+</script>
